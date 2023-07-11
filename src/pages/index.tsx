@@ -42,34 +42,8 @@ const particlesLoaded = useCallback(async (container: any) => {
                 />
       <main className="flex flex-col w-screen h-full m-0 overflow-x-hidden">
         <Navbar />
-<<<<<<< Updated upstream
         <div className="flex flex-col m-0 w-screen">
           <div className="flex items-center justify-center px-8 h-[50rem]">
-=======
-        
-          <div className="flex flex-col w-full h-full outline outline-offset-1 outline-black	">
-            <div className='flex flex-col w-full'>
-              <MainContent />
-              <div className="md:hidden flex flex-row min-h-[50rem] bg-notes w-full h-full bg-contain bg-no-repeat"></div>
-            </div>
-            <div className="hidden md:flex flex-col items-center justify-center w-5/6 min-h-[25rem] mx-20">
-              <div className='hidden md:flex flex-col w-full min-h-[25rem] h-full bg-firstline bg-cover bg-no-repeat'></div>
-            </div>          
-            <div className='flex flex-row md:bg-white bg-[#1585CB]'><TryDemo /></div>
-            <div className="hidden md:flex flex-col items-center justify-center w-3/5 min-h-[25rem] mx-20">
-              <div className='hidden md:flex flex-col w-full min-h-[25rem] h-full bg-secondline bg-cover bg-no-repeat'></div>
-            </div>
-            <div className='flex flex-row'><SectionTwo /></div>
-            <div className="hidden md:flex flex-col items-center justify-center w-3/5 min-h-[25rem] mx-20">
-              <div className='hidden md:flex flex-col w-full min-h-[25rem] h-full bg-thirdline bg-cover bg-no-repeat'></div>
-            </div>
-            <div className='flex flex-row'><SectionThree /></div>
-            {/* <div className='flex flex-col'><Possibilities /></div> */}
-          </div>
-          <div className='md:hidden flex w-2/3 h-content bg-gray-500'>
-          </div>
->>>>>>> Stashed changes
-
             <MainContent />
           </div>
           <div className="flex flex-row w-full py-16">
